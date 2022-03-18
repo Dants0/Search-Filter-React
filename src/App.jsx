@@ -7,7 +7,7 @@ function App() {
         <input type="text" placeholder="Search..." className="search" />
         <ul className="list">
           {Users.map(users => (
-            <li className="listItem">{users.house}</li>
+            <li className="listItem">{users.house + "/" + users.name}</li>
           ))}
         </ul>
     </div>
