@@ -13,13 +13,13 @@ app.get('/',(req, res)=>{
 
 
     //array de parametros
-    const keys = ["name","patronus", "house", "actor"];
+    const keys = ["name","patronus", "{wand.length}", "house", "actor" ,"gender"];
 
 
     //percorrendo array
     const search = (data) => {
         return data.filter((item) =>
-          keys.some((key) => item[key].toLowerCase().includes(q))
+          keys.some((key) => item[key].toLowerCase().includes(q)) || keys.some((key) => item[key].toUpperCase().includes(q)) || keys.some((key) => item[key].includes(q))
         );
       };
 

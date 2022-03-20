@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-        <input type="text" placeholder="Search..." className="search" onChange={e=>setQuery(e.target.value)}/>
+        <input type="text" placeholder="Character Name..." className="search" onChange={e=>setQuery(e.target.value)}/>
         <Table data={data} />
     </div>
   );

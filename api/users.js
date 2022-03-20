@@ -3381,7 +3381,7 @@ export const Users = [
       "alternate_names": [],
       "species": "human",
       "gender": "male",
-      "house": "",
+      "house": "Slytherin",
       "dateOfBirth": "",
       "yearOfBirth": "",
       "wizard": true,
@@ -3393,7 +3393,7 @@ export const Users = [
         "core": "",
         "length": ""
       },
-      "patronus": "",
+      "patronus": "snake",
       "hogwartsStudent": false,
       "hogwartsStaff": false,
       "actor": "",
