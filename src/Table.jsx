@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Table = () => {
+const Table = ({data}) => {
   return (
     <table>
         <tbody>
@@ -9,6 +9,13 @@ const Table = () => {
                 <th>House</th>
                 <th>Actor</th>
             </tr>
+            {data.map((item)=>(
+            <tr key={item.id}>
+              <td>{item.name}</td>
+              <td>{item.house}</td>
+              <td>{item.actor}</td>
+            </tr>
+            ))}
         </tbody>
     </table>
   )
