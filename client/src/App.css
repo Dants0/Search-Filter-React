@@ -6,12 +6,12 @@
   width: 900px;
 }
 
-
 .search {
   padding: 10px;
   font-size: 20px;
   border-radius: 5px;
   border: 1px solid #000;
+  box-sizing: border-box;
 }
 
 .list {
@@ -27,11 +27,19 @@
   font-weight: 300;
 }
 
+body{
+  background: url(https://wallpaperaccess.com/full/541392.jpg);
+  background-image: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 table {
   width: 100%;
   margin: 50px 0px;
   border-spacing: 15px;
-  color: #444;
+  color: rgb(255, 255, 255);
 }
 
 tr {
@@ -41,7 +49,8 @@ tr {
 th {
   width: 250px;
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 td {
