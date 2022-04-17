@@ -8,7 +8,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   const { q } = req.query;
 
-  const keys = ["name","house", "patronus", "actor" ,"gender"];
+  const keys = ["name","house", "patronus", "actor" ,"gender", "image"];
 
   const search = (data) => {
     return data.filter((item) =>

@@ -10,7 +10,7 @@ const Table = ({data}) => {
                 <th>Patronus</th>
                 <th>Actor</th>
                 <th>Gender</th>
-                
+                <th>Imagem</th>
             </tr>
             {data.map((item)=>(
             <tr key={item.id}>
@@ -19,6 +19,7 @@ const Table = ({data}) => {
               <td>{item.patronus}</td>
               <td>{item.actor}</td>
               <td>{item.gender}</td>
+              <td>{item.image}</td>
             </tr>
             ))}
         </tbody>
