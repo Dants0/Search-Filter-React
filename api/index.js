@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
     );
   };
 
-  q ? res.json(search(Users).slice(0, 20)) : res.json(Users.slice(0, 20));
+  q ? res.json(search(Users).slice(0, 50)) : res.json(Users.slice(0, 50));
 });
 
 app.listen(5000, () => console.log("API is working!"));

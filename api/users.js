@@ -800,10 +800,10 @@ export const Users = [
       "patronus": "Phoenix",
       "hogwartsStudent": false,
       "hogwartsStaff": true,
-      "actor": "Richard Harris",
-      "alternate_actors": ["Michael Gambon"],
+      "actor": "Michael Gambon",
+      "alternate_actors": ["Richard Harris"],
       "alive": false,
-      "image": "https://br.web.img2.acsta.net/newsv7/22/01/22/17/48/5966135.jpg"
+      "image": "https://veja.abril.com.br/wp-content/uploads/2016/06/harry-potter-dumbledore-07-original-e1542292030153.jpeg?quality=70&strip=info&resize=680,453"
     },
     {
       "id": "32",
