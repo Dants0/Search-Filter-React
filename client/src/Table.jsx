@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Table = ({data}) => {
   return (
     <table>
@@ -13,13 +14,13 @@ const Table = ({data}) => {
                 <th>Imagem</th>
             </tr>
             {data.map((item)=>(
-            <tr key={item.id}>
+              <tr key={item.id}>
               <td>{item.name}</td>
               <td>{item.house}</td>
               <td>{item.patronus}</td>
               <td>{item.actor}</td>
               <td>{item.gender}</td>
-              <td>{item.image}</td>
+              <td><img src={item.image} width="250px" height="250px" alt={item.name}></img></td>
             </tr>
             ))}
         </tbody>

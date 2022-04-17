@@ -803,7 +803,7 @@ export const Users = [
       "actor": "Richard Harris",
       "alternate_actors": ["Michael Gambon"],
       "alive": false,
-      "image": ""
+      "image": "https://br.web.img2.acsta.net/newsv7/22/01/22/17/48/5966135.jpg"
     },
     {
       "id": "32",
