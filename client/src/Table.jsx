@@ -11,7 +11,7 @@ const Table = ({data}) => {
                 <th>Patronus</th>
                 <th>Actor</th>
                 <th>Gender</th>
-                <th>Imagem</th>
+                <th>Image</th>
             </tr>
             {data.map((item)=>(
               <tr key={item.id}>
